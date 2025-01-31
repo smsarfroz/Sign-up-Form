@@ -75,6 +75,7 @@ why is that ?
     padding: 20px 40px;
     height: 210px;
     background-color: rgb(240, 240, 240);
+    box-shadow: 10px 5px 5px grey;
 }
 .formContainer p {
     font-weight: bold;
@@ -119,4 +120,30 @@ input[type="password"]:invalid {
 input:focus {
     outline: none;
     border: 2px solid blue;
+    box-shadow: 2px 2px grey;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+}
+
+.mainContainer button {
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+    outline: none;
+    background-color: #596D48;
+}
+
+.login {
+    font-weight: 500;
+}
+
+.account {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 40px;
+    margin-top: 50px;
 }
